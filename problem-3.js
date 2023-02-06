@@ -1,11 +1,9 @@
 function isLGSeven(number) {
-	if (number < 7) {
-		let value = number-7;
-		return value;
+	if ((number - 7) < 7) {
+		return (number-7);
 	}
 	else {
-		value = number * 2;
-		return value;
+		return (number*2);
 	}
 }
 

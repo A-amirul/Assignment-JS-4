@@ -1,6 +1,6 @@
 function evenOdd(string) {
 	   const character = string.length;
-		if (character % 2 == 0) {
+		if (character % 2 === 0) {
 			return 'even';
 		}
 		else {
