@@ -9,4 +9,4 @@ function isLGSeven(number) {
 	}
 }
 
-console.log(isLGSeven(-15));
+console.log(isLGSeven(15));

@@ -1,14 +1,14 @@
 function evenOdd(string) {
-	   const element = string.length;
-		if (element % 2 == 0) {
-			return 'Even';
+	   const character = string.length;
+		if (character % 2 == 0) {
+			return 'even';
 		}
 		else {
-			return 'Odd';
+			return 'odd';
 		}
 		
 }
 
-let string = 'chatgpt1';
+let string = 'chatgpt';
 let input = evenOdd(string);
 console.log(input);

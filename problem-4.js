@@ -9,6 +9,6 @@ function findingBadData(numbers) {
 	return badData;
 }
 
-let numbers = [-4, -9, -5, -33, 55];
+let numbers = [-4, -9, -5, 33, 55];
 let value = findingBadData(numbers);
 console.log(value);
